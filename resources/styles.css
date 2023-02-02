@@ -1,0 +1,31 @@
+/**
+ * @overview Default layout of <i>ccmjs</i>-based web component for 2PS Trainer.
+ * @author André Kless <andre.kless@web.de> 2022-2023
+ * @copyright EILD.nrw 2022-2023
+ * @license The MIT License (MIT)
+ */
+
+header, aside {
+  margin: 1em;
+}
+
+#inputs {
+  white-space: nowrap;
+}
+
+.label:after {
+  content: ':'
+}
+
+#progress {
+  min-width: 300px;
+  height: 32px;
+}
+
+*[data-invisible] {
+  visibility: hidden !important;
+}
+
+*[data-hidden] {
+  display: none !important;
+}

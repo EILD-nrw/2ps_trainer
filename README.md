@@ -1,1 +1,1 @@
-# 2ps_trainer
+# 2PS-Trainer
